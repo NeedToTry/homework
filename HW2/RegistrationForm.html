@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Povhanich">
+    <title>Registration form</title>
+</head>
+<body>
+    <div align="center" style="font-size: x-large; background-color: whitesmoke;">
+        <fieldset style="width: 75%;">
+            <legend align="center"><h1>Форма реєстрації користувача</h1></legend>
+    <form action="mailto:m.povhanich93@gmail.com" method="post" enctype="text/plain">
+
+       
+            <div name="AboutMe">
+                <fieldset>
+                    <legend><h3>Про себе</h3></legend>
+                    <legend>ПІБ</legend>
+                    <input type="text" name="ПІБ">
+                    <legend>Адреса</legend>
+                    <input type="text" name="Адреса">
+                    <legend>Вік</legend>
+                    <input type="number" name="Вік" min="8" max="100">
+                    <legend>Пошта</legend>
+                    <input type="email" name="Пошта">
+                </fieldset>
+            </div>
+
+            <div name="WorkPlace">
+                <fieldset>
+                    <legend><h3>Місце роботи </h3></legend>
+                    <legend>Адреса організації</legend>
+                    <input type="text" name="Адреса організації">
+                    <legend>Стаж роботи(цілих років)</legend>
+                    <input type="number" name="Стаж роботи(цілих років)" min="0" max="45">
+                    <legend>Дата початку роботи</legend>
+                    <input type="date">
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend><h3>Статичний опитувальник</h3></legend>
+                    <legend>Як оцінюєте роботу президента?</legend>
+                    <input type="range" min="0" max="10">
+                    <legend>Коментар стосовно останніх виборів:</legend>
+                    <textarea cols="50" rows="3" placeholder="Введіть Ваш коментар..." ></textarea>
+                    <legend>Найкращий місяць для відпустки:</legend>
+                    <input type="radio" name="month" checked> Січень
+                    <input type="radio" name="month"> Лютий
+                    <input type="radio" name="month"> Березень
+                    <input type="radio" name="month"> Квітень
+                    <input type="radio" name="month"> Травень
+                    <input type="radio" name="month"> Червень
+                    <br>
+                    <input type="radio" name="month"> Липень
+                    <input type="radio" name="month"> Серпень
+                    <input type="radio" name="month"> Вересень
+                    <input type="radio" name="month"> Жовтень
+                    <input type="radio" name="month"> Листопад
+                    <input type="radio" name="month"> Грудень
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend><h3>Пріорітети:</h3></legend>
+
+                    <legend>Вибір кави:</legend>
+                    Lavazza <input type="radio" name="coffee">
+                    Movenpick <input type="radio" name="coffee">
+                    Starbucks <input type="radio" name="coffee"> <br>
+                    Dallmayr <input type="radio" name="coffee">
+                    Jacobs <input type="radio" name="coffee">
+                    Кава зі Львова <input type="radio" name="coffee"><br>
+
+                    <br><legend>Місця відпочинку:</legend>
+                    Гори <input type="checkbox">
+                    Море/озера/річки <input type="checkbox"><br>
+                    Ліси <input type="checkbox">
+                    Міста з історією <input type="checkbox"> <br>
+                    Місця для творчого відпочинку та розвитку <input type="checkbox"><br>
+                    Фестивалі та події <input type="checkbox"><br>
+
+                    <br>
+                    <legend>Автомобіль:</legend>
+                    <select name="car" style="font-size: large;">
+                        <option value="Tesla">Tesla</option>
+                        <option value="Mazda">Mazda</option>
+                        <option value="Hyundai:">Hyundai</option>
+                        <option value="Opel">Opel</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Mersedes">Mersedes</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Porsche">Porsche</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="Audi">Audi</option>                        
+                    </select>
+                    <br>
+
+                    <br>
+                    <legend>Овочі:</legend>
+                    <select name="Vegetables" style="font-size: large;">
+                        <optgroup label="Салатно-шпинатні:">
+                            <option value="салат">Салат</option>
+                            <option value="шпинат">Шпинат</option>
+                            <option value="щавель">Щавель</option>
+                        </optgroup>
+                        <optgroup label="Капустяні">
+                            <option value="білокачанна">Білокачанна</option>
+                            <option value="червонокачанна">Червонокачанна</option>
+                            <option value="кольорова">Кольорова</option>
+                            <option value="брюссельська">Брюссельська</option>
+                            <option value="пекінська">Пекінська</option>
+
+                        </optgroup>
+                        <optgroup label="Коренеплоди">
+                            <option value="морква">Морква</option>
+                            <option value="буряк столовий">Буряк столовий</option>
+                            <option value="петрушка">Петрушка</option>
+                            <option value="редиска">Редиска</option>
+                            <option value="селера">Селера</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                </fieldset>
+                <br>
+                <div name="Button" >
+                    <input type="reset" value="Очистити" style="font-size: x-large; background-color: lightblue; width: 200px;">
+                    <br>
+                    <input type="submit" value="Надіслати" style="font-size: x-large; background-color: lightyellow; width: 200px;">
+                </div>
+            </div>
+
+        </fieldset>
+    </div>
+    </form>
+</body>
+</html>
