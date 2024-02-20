@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+h2 {
+    text-align: center;
+}
+h2, .headlines a {
+    color: #22579e;
+    margin: 0 0 5px 100px;
+    font-size: 34px;
+}
+p a {
+  color: #00b050;
+  
+}
+p {
+    text-align: right;
+    font-size: x-large;
+}
+span a {
+    font-size: smaller;
+    font-style: italic;
+    opacity: 0.7    ;
+}
+div li {
+    font-size: x-large;
+}
+li.first, li.first a {
+    color: red;
+}
+li.second, li.second a, .yellow {
+    color: #ffc000;
+}
+li.third, li.third a, .gray {
+    color: gray;
+}
+#blue, li #blue:first-child + span a {
+    color: #4472c4;
+}
+#sky_blue, li #sky_blue:nth-child(1) + span a {
+    color: #00b0f0;
+}
