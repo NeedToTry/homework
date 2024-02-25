@@ -1,0 +1,36 @@
+ body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: x-large;
+ }
+ th, span {
+    color: brown;
+ }
+ span {
+    padding: 15px;
+    font-weight: bold;
+ }
+ div h1 {
+    text-align: center;
+    color: blue;
+ }
+td, th {
+    padding: 10px;
+}
+td:nth-child(odd) {
+    color: red;
+}
+td:nth-child(even) {
+    font-style: normal;
+}
+.Day td {
+    color: red;
+    font-style: italic;
+}
+td.Time  {
+    color: black;
+    font-style: normal;
+}
