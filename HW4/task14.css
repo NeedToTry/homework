@@ -1,0 +1,100 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    box-sizing: border-box;
+}
+.MohsScale table  {
+    border: 2px solid gray;
+    font-style: normal;
+    margin: auto;
+    text-align: justify;
+    width: 40%;
+}
+.MohsScale td {
+    border: 1px solid white;
+    padding: 10px;
+}
+.MohsScale th {
+    background-color: rgba(17, 160, 136, 0.897);
+    color: whitesmoke;
+    border: 1px solid white;
+    padding: 10px;
+}
+.MohsScale tr:nth-child(odd) {
+    background-color: rgba(243, 200, 207, 0.829);
+}
+#white:hover {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#red:hover {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+#purple:hover {
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
+#green:hover {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+#blue:hover {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+div {
+    padding: 10px;
+}
+.Chess table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 20px;
+}
+.Chess td, .Chess tr {
+    height: 64px;
+    width: 64px;
+}
+.Chess tr:nth-child(odd) td:nth-child(odd) {
+    background-color: green;
+}
+.Chess tr:nth-child(even) td:nth-child(even) {
+    background-color: green;
+}
+.Chess table tr td:hover {
+    border: 2px solid purple;
+    background-color: rgba(5, 5, 5, 0.75) !important;
+}
+.Line {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: auto;
+    padding: 0;
+}
+.Line p:nth-child(even) {
+    color: rgb(151, 1, 1);
+}
+.Line p {
+    margin: 0;
+}
+.someText p::first-letter {
+    color: red;
+    font-weight: bold;
+}
+.someText p:nth-child(3) {
+    color: green;
+}
+.someText {
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
